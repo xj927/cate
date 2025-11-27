@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #FFFFFF;
+  color: #000000;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Neo-Brutalism Utilities */
+.neo-border {
+  border: 3px solid #000000;
+}
+
+.neo-shadow {
+  box-shadow: 6px 6px 0 #000000;
+}
+
+.neo-shadow-sm {
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.neo-shadow-lg {
+  box-shadow: 8px 8px 0 #000000;
+}
+
+.neo-button {
+  border: 3px solid #000000;
+  background: #FF005C;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.neo-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+.neo-button:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 #000000;
+}
+
+.neo-button-secondary {
+  background: #00F0FF;
+  color: #000000;
+}
+
+.neo-button-white {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.neo-input {
+  border: 3px solid #000000;
+  padding: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  background: #FFFFFF;
+  width: 100%;
+}
+
+.neo-input:focus {
+  outline: none;
+  box-shadow: 4px 4px 0 #000000;
+}
+
+.neo-card {
+  border: 3px solid #000000;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 0 #000000;
+  padding: 20px;
+}
+
+.neo-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 2px solid #000000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border-left: 3px solid #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF005C;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00F0FF;
+}
